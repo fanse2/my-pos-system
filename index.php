@@ -79,7 +79,7 @@ require_once('dave.php');
                         
                         <!-- Receipt section-->
 
-                        <div class="container px-1 my-2">
+                        <div id='receipt' class="container px-1 my-2">
                             <div class="text-center mb-3">
                                 <h2  data-anijs="if:click, do: hinge animated, to: #main" class="fw-bolder"  ng-bind="customer.cName+' ('+customer.cNo+')'"></h2>
                                 <p class="lead mb-0"></p>
